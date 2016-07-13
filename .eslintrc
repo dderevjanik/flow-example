@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "flowtype/space-after-type-colon": [
+            1,
+            "always"
+        ],
+        "semi": 2
+    }
+}
